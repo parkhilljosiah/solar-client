@@ -1,5 +1,10 @@
 .solar__header__container {
-    margin: 2em;
+    margin: auto;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .solar__header {
@@ -9,5 +14,5 @@
     text-transform: uppercase;
     font-style: italic;
     font-weight: 900;
-    color: #fdbe02;
+    color: var(--solar-yellow);
 }

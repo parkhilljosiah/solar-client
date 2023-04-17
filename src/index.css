@@ -1,8 +1,11 @@
 :root {
   font-family: "Lato", sans-serif;
-  --solar-yellow: #fdbe02;
+  --solar-gray: #f0f0f0;
+  --solar-blue: #3c486b;
+  --solar-red: #f45050;
+  --solar-yellow: #f9d949;
 }
 
 body {
-  background-color: #414a4c;
+  background-color: var(--solar-blue) !important;
 }

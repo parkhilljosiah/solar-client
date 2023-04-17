@@ -1,6 +1,6 @@
 .solar__footer__container {
   margin: auto;
-  padding: 1rem;
+  padding: 0 0 0 0.5em;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -11,6 +11,7 @@
   text-align: center;
   font-style: italic;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
   font-size: 0.75em;
   font-weight: 500;
   color: var(--solar-yellow);

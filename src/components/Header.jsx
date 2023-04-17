@@ -8,7 +8,7 @@ export default function Header() {
     <>
       <div className="solar__header__container">
         <div className="solar__header">
-          s<i className="bi bi-sun-fill"></i>lar
+          solar
         </div>
       </div>
       <Stack>

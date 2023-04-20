@@ -13,6 +13,11 @@
 .solar__planet__img {
   height: 30em;
   margin-bottom: 6em;
+  transition: 1s ease-in-out;
+}
+
+.solar__planet__img:hover {
+  transform: translateY(-0.65em) rotate(5deg);
 }
 
 .solar__planet__caption {

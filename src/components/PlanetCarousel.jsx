@@ -19,7 +19,7 @@ export default function PlanetCarousel() {
       >
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <a href="https://space-facts.com/transparent-planet-pictures/">
+            <a href="/mercury">
               <img
                 className="solar__planet__img"
                 src="https://space-facts.com/wp-content/uploads/mercury-transparent.png"
@@ -33,11 +33,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/venus-transparent.png"
-              alt=""
-            />
+            <a href="/venus">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/venus-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">venus</h3>
@@ -45,11 +47,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/earth-transparent.png"
-              alt=""
-            />
+            <a href="/earth">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/earth-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">earth</h3>
@@ -57,11 +61,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/mars-transparent.png"
-              alt=""
-            />
+            <a href="/mars">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/mars-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">mars</h3>
@@ -69,11 +75,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/jupiter-transparent.png"
-              alt=""
-            />
+            <a href="/jupiter">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/jupiter-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">jupiter</h3>
@@ -81,11 +89,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/saturn-transparent.png"
-              alt=""
-            />
+            <a href="/saturn">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/saturn-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">saturn</h3>
@@ -93,11 +103,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/uranus-transparent.png"
-              alt=""
-            />
+            <a href="/uranus">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/uranus-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">uranus</h3>
@@ -105,11 +117,13 @@ export default function PlanetCarousel() {
         </Carousel.Item>
         <Carousel.Item className="solar__carousel__item">
           <div className="solar__planet__img__container">
-            <img
-              className="solar__planet__img"
-              src="https://space-facts.com/wp-content/uploads/neptune-transparent.png"
-              alt=""
-            />
+            <a href="/neptune">
+              <img
+                className="solar__planet__img"
+                src="https://space-facts.com/wp-content/uploads/neptune-transparent.png"
+                alt=""
+              />
+            </a>
           </div>
           <Carousel.Caption>
             <h3 className="solar__planet__caption">neptune</h3>

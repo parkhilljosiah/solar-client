@@ -1,0 +1,169 @@
+.back__button {
+  color: var(--solar-yellow);
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-inline: 0.75em;
+  margin-bottom: 1em;
+  transition: 0.75s ease-in-out;
+}
+
+.back__button:hover {
+  color: var(--solar-red);
+  animation: colorShift 2s ease-in-out;
+}
+
+@keyframes colorShift {
+  0% {
+    color: var(--solar-yellow);
+  }
+  50% {
+    color: var(--solar-gray);
+  }
+  100% {
+    color: var(--solar-red);
+  }
+}
+
+.planet__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--solar-gray);
+  margin-inline: 1em;
+  margin-block: 1em 6em;
+}
+
+.planet__photo__container {
+  cursor: pointer;
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
+
+.planet__photo__text__container {
+  opacity: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: 6px solid var(--solar-gray);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  transition: 0.8s ease-in-out;
+}
+
+.planet__photo__text__container:hover {
+  opacity: 1;
+}
+
+.planet__photo__text {
+  margin-inline: 2em;
+  line-height: 2em;
+  font-size: 0.75em;
+  font-weight: 800;
+  color: var(--solar-gray);
+}
+
+.planet__photo {
+  height: 30em;
+  border-radius: 8px;
+  border: 6px solid var(--solar-gray);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.planet__info {
+  font-size: 1.25em;
+}
+
+.planet__name {
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--solar-yellow);
+}
+
+.planet__text {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 0.5em;
+}
+
+.planet__text__header {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--solar-red);
+}
+
+@media screen and (max-width: 900px) {
+  .back__button {
+    font-size: 1em;
+  }
+
+  .planet__container {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .planet__photo__container {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    transition: show 0.3s ease-in-out;
+    margin-block: 2em;
+  }
+
+  .planet__photo__text__visible {
+    margin-inline: 1.25em;
+    margin-block-start: 1em;
+    font-size: 0.65em;
+    font-weight: 800;
+  }
+
+  .planet__photo {
+    height: 25em;
+  }
+
+  .planet__info {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .planet__photo {
+    height: 15em;
+    max-width: 95%;
+    border: none;
+    margin: 0;
+  }
+
+  .planet__photo__container {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    transition: show 0.3s ease-in-out;
+    margin-block: 1em;
+  }
+
+  .planet__photo__text__visible {
+    margin: 1.5em;
+    font-size: 0.45em;
+    font-weight: 700;
+  }
+
+  .planet__info {
+    font-size: 0.8em;
+  }
+}
